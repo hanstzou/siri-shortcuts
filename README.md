@@ -28,9 +28,14 @@ Each category has an entry shortcut to run from the share sheet.
 | [**f. Choose from Dictionary List**][f-cdl] | [Get][f-cdl-i] | Given a1 (`[dict, dict, ...]`), a2 (key), a3 (value criteria), output `dict` by chooseing from `dict[a2]` or output the first `dict` if `dict[a2] ~ a3` | - | NO | NO | - | - |
 | [**f. 2. Call Function**][f-fn] | [Get][f-fn-i] | Given shortcut and arglist, pass arglist all-at-once (if `m.` in shortcut name) or 1-by-1 (otherwise) to the shortcut | - | NO | NO | - | - |
 | [**f. 3. Select Function.shortcut**][f-selfn] | [Get][f-selfn-i] | Given category, prefix, and usage message, display functions of the prefix for choosing | - | NO | NO | - | - |
-| [**f.i. Trim Screenshot**][fi-trim] | [Get][fi-trim-i] | Trim out the status bar from a screenshot | `image` | Auto | NO | - | - |
+| [**Image Actions**][img] | [Get][img-i] | Call `f.i.` functions on input images | `image` | YES | NO | <ul><li>[x] f. 2. Call Function</li><li>[x] f. 3. Select Function</li></ul> | - |
+| [**f.i. Trim Screenshot**][fi-trim] | [Get][fi-trim-i] | Trim out the status bar from a screenshot | `image` | Indirect | NO | - | - |
+| [**f.i.m. Glue Screenshots**][fim-glue] | [Get][fim-glue-i] | Combine multiple screenshots from left to right | `image` | Indirect | NO | - | - |
+| [**f.i. Imgur.shortcut**][fi-imgur] | [Get][fi-imgur-i] | Upload photo to imgur <br/><sup>(:warning: Need an one-time setup for Imgur in Shortcut app)</sup> | `image` | Indirect | NO | - | - |
+| [**f.i. Photo Map Thumbnail v2.shortcut**][fi-imgmap] | [Get][fi-imgmap-i] | Add a coordinate map to a photo | `image` | Indirect | NO | - | [Reddit @atomicsiren][fi-imgmap-src] <br/><sup>(Modified to integrate into Image Actions)</sup> |
 
-<a href='#^act-ext'>^</a><a name='act-ext'>1</a> __Action Extension:__ Accepts files, URLs or other data from another app's share sheet.
+<a href='#^act-ext'>^</a><a name='act-ext'>1</a> __Action Extension:__ Accepts files, URLs or other data from another app's share sheet. <br/>
+Indirect means a shortcut will be called by a category entry.
 
 
 [bak]: <xml/Backup%3ARestore.shortcut>
@@ -60,5 +65,14 @@ Each category has an entry shortcut to run from the share sheet.
 [f-fn-i]: <https://www.icloud.com/shortcuts/f5b310f99c4a4f2e99440a405b8d97ca>
 [f-selfn]: <xml/f.%203.%20Select%20Function.shortcut>
 [f-selfn-i]: <https://www.icloud.com/shortcuts/6a3dbb4c49504839942d6a40a9637786>
+[img]:<xml/Image%20Actions.shortcut>
+[img-i]: <https://www.icloud.com/shortcuts/53e178455baf4e03b9c573a5f2b0850f>
 [fi-trim]: <xml/f.i.%20Trim%20Screenshot.shortcut>
 [fi-trim-i]: <https://www.icloud.com/shortcuts/5b7b4bdff09745e7b2dcebf57b42c678>
+[fim-glue]: <xml/f.i.m.%20Glue%20Screenshots.shortcut>
+[fim-glue-i]: <https://www.icloud.com/shortcuts/f29b93a9c638477b9859c7cfd857fdb9>
+[fi-imgur]: <xml/f.i.%20Imgur.shortcut>
+[fi-imgur-i]: <https://www.icloud.com/shortcuts/b9a28aab4a854b29bbf63c11d5813d01>
+[fi-imgmap]: <xml/f.i.%20Photo%20Map%20Thumbnail%20v2.shortcut>
+[fi-imgmap-i]: <https://www.icloud.com/shortcuts/38e72001cb7142339ccb2e2a5d86640a>
+[fi-imgmap-src]: <https://reddit.com/r/shortcuts/comments/9qyh6y/add_thumbnail_map_to_photo/>

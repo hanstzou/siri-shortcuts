@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowActions</key>
+	<array>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.imgur.upload</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFImgurAlbum</key>
+				<false/>
+				<key>WFImgurAlbumLayout</key>
+				<string>Grid</string>
+				<key>WFImgurAnonymous</key>
+				<false/>
+				<key>WFImgurDirectLink</key>
+				<false/>
+				<key>WFImgurTitle</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setclipboard</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.nothing</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict/>
+		</dict>
+	</array>
+	<key>WFWorkflowClientRelease</key>
+	<string>2.1.1</string>
+	<key>WFWorkflowClientVersion</key>
+	<string>736</string>
+	<key>WFWorkflowIcon</key>
+	<dict>
+		<key>WFWorkflowIconGlyphNumber</key>
+		<integer>59708</integer>
+		<key>WFWorkflowIconImageData</key>
+		<data>
+		</data>
+		<key>WFWorkflowIconStartColor</key>
+		<integer>1239959039</integer>
+	</dict>
+	<key>WFWorkflowImportQuestions</key>
+	<array/>
+	<key>WFWorkflowInputContentItemClasses</key>
+	<array>
+		<string>WFImageContentItem</string>
+		<string>WFAVAssetContentItem</string>
+	</array>
+	<key>WFWorkflowTypes</key>
+	<array/>
+</dict>
+</plist>
