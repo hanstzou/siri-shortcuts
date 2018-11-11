@@ -15,6 +15,8 @@ Each category has an entry shortcut to run from the share sheet.
 
 | Shortcut<br/> Name & XML | iCloud | Description | Category | Action Extension<sup><a href='#act-ext' name='^act-ext'>1</a></sup> | Widget | Source | Depends On |
 | ------------------------ | :----: | ----------- | -------- | :-----------------------------------------------------------------: | :----: | ------ | ---------- |
+| [**Debug Input**][dbg] | [Get][dbg-i] | Debugging inspect whatever input | - | YES | NO | - | - |
+| [**Copy**][cp] | [Get][cp-i] | Copy whatever input | - | YES | NO | - | - |
 | [**Backup/Restore**][bak] | [Get][bak-i] | Backup & Restore shortcuts | - | NO | NO | [@brentacPrime][bak-src] | - |
 
 <a href='#^act-ext'>^</a><a name='act-ext'>1</a> __Action Extension:__ Accepts files, URLs or other data from another app's share sheet.
@@ -23,3 +25,7 @@ Each category has an entry shortcut to run from the share sheet.
 [bak]: <xml/Backup%3ARestore.shortcut>
 [bak-i]: <https://www.icloud.com/shortcuts/ee2fa9e163be4704b061193c444cd124>
 [bak-src]: <http://www.brentac.com/blog/2017/3/25/backup-and-restore-your-workflows>
+[cp]: <xml/Copy.shortcut>
+[cp-i]: <https://www.icloud.com/shortcuts/d12ada588c8c4a428d647f03b3b73277>
+[dbg]: <xml/Debug%20Input.shortcut>
+[dbg-i]: <https://www.icloud.com/shortcuts/771e4d44f2574d50883e448b96bbba8e>
