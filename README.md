@@ -20,6 +20,8 @@ Each category has an entry shortcut to run from the share sheet.
 | [**Backup/Restore**][bak] | [Get][bak-i] | Backup & Restore shortcuts | - | NO | NO | - | [@brentacPrime][bak-src] |
 | [**Trim Screenshot**][trim] | [Get][trim-i] | Call `f.i. Trim Screenshot` to trim the most current screenshot | `image` | NO | YES | <ul><li>[x] f.i. Trim Screenshot</li></ul> | - |
 | [**Run Clipboard**][clip] | [Get][clip-i] | Fetch whatever on the clipboard and launch the share sheet | - | YES<br/><sup>(but use clipboard content instead)</sup> | YES | - | - |
+| [**MRT Time**][mrt] | [Get][mrt-i] | Given Taipei Metro station ID and direction, report current time table | - | NO | YES | <ul><li>[x] f. Choose from Dictionary List</li></ul> | - |
+| [**f. Choose from Dictionary List**][f-cdl] | [Get][f-cdl-i] | Given a1 (`[dict, dict, ...]`), a2 (key), a3 (value criteria), output `dict` by chooseing from `dict[a2]` or output the first `dict` if `dict[a2] ~ a3` | - | NO | NO | - | - |
 | [**f.i. Trim Screenshot**][fi-trim] | [Get][fi-trim-i] | Trim out the status bar from a screenshot | `image` | Auto | NO | - | - |
 
 <a href='#^act-ext'>^</a><a name='act-ext'>1</a> __Action Extension:__ Accepts files, URLs or other data from another app's share sheet.
@@ -36,5 +38,9 @@ Each category has an entry shortcut to run from the share sheet.
 [trim-i]: <https://www.icloud.com/shortcuts/c16437ac859740f3afdb0d197c550667>
 [clip]: <xml/Run%20Clipboard.shortcut>
 [clip-i]: <https://www.icloud.com/shortcuts/dc005d02c9024647b47d720369b4adcb>
+[mrt]: <xml/MRT%20Time.shortcut>
+[mrt-i]: <https://www.icloud.com/shortcuts/54cbc09a110947de92231449d2c19792>
+[f-cdl]: <xml/f.%20Choose%20from%20Dictionary%20List.shortcut>
+[f-cdl-i]: <https://www.icloud.com/shortcuts/337bb10070994f789afbc22b9b1ca668>
 [fi-trim]: <xml/f.i.%20Trim%20Screenshot.shortcut>
 [fi-trim-i]: <https://www.icloud.com/shortcuts/5b7b4bdff09745e7b2dcebf57b42c678>
