@@ -27,7 +27,7 @@ Each category has an entry shortcut to run from the share sheet.
 | [**f. Hex to Dec**][f-0x] | [Get][f-0x-i] | Given hex number, output decimal | - | NO | NO | - | - |
 | [**f. Choose from Dictionary List**][f-cdl] | [Get][f-cdl-i] | Given a1 (`[dict, dict, ...]`), a2 (key), a3 (value criteria), output `dict` by chooseing from `dict[a2]` or output the first `dict` if `dict[a2] ~ a3` | - | NO | NO | - | - |
 | [**f. 2. Call Function**][f-fn] | [Get][f-fn-i] | Given shortcut and arglist, pass arglist all-at-once (if `m.` in shortcut name) or 1-by-1 (otherwise) to the shortcut | - | NO | NO | - | - |
-| [**f. 3. Select Function.shortcut**][f-selfn] | [Get][f-selfn-i] | Given category, prefix, and usage message, display functions of the prefix for choosing | - | NO | NO | - | - |
+| [**f. 3. Select Function**][f-selfn] | [Get][f-selfn-i] | Given category, prefix, and usage message, display functions of the prefix for choosing | - | NO | NO | - | - |
 | [**Web Actions**][web] | [Get][web-i] | Call `f.w` functions on input webpage | `web` | YES | NO | <ul><li>[x] f. 2. Call Function</li><li>[x] f. 3. Select Function</li></ul> | - |
 | [**f.w. f.u. Get HTML**][fwfu-htm] | [Get][fwfu-htm-i] | Output HTML of a Web page or an URL | `web`</br>`url` | Indirect | NO | - | - |
 | [**p.w. Get IG URL**][pw-ig] | [Get][pw-ig-i] | Extract URLs from IG JSON node | `web`<br/>`download` | Support | NO | - | - |
@@ -37,8 +37,8 @@ Each category has an entry shortcut to run from the share sheet.
 | [**Image Actions**][img] | [Get][img-i] | Call `f.i.` functions on input images | `image` | YES | NO | <ul><li>[x] f. 2. Call Function</li><li>[x] f. 3. Select Function</li></ul> | - |
 | [**f.i. Trim Screenshot**][fi-trim] | [Get][fi-trim-i] | Trim out the status bar from a screenshot | `image` | Indirect | NO | - | - |
 | [**f.i.m. Glue Screenshots**][fim-glue] | [Get][fim-glue-i] | Combine multiple screenshots from left to right | `image` | Indirect | NO | - | - |
-| [**f.i. Imgur.shortcut**][fi-imgur] | [Get][fi-imgur-i] | Upload photo to imgur <br/><sup>(:warning: Need an one-time setup for Imgur in Shortcut app)</sup> | `image` | Indirect | NO | - | - |
-| [**f.i. Photo Map Thumbnail v2.shortcut**][fi-imgmap] | [Get][fi-imgmap-i] | Add a coordinate map to a photo | `image` | Indirect | NO | - | [Reddit @atomicsiren][fi-imgmap-src] <br/><sup>(Modified to integrate into Image Actions)</sup> |
+| [**f.i. Imgur**][fi-imgur] | [Get][fi-imgur-i] | Upload photo to imgur <br/><sup>(:warning: Need an one-time setup for Imgur in Shortcut app)</sup> | `image` | Indirect | NO | - | - |
+| [**f.i. Photo Map Thumbnail v2**][fi-imgmap] | [Get][fi-imgmap-i] | Add a coordinate map to a photo | `image` | Indirect | NO | - | [Reddit @atomicsiren][fi-imgmap-src] <br/><sup>(Modified to integrate into Image Actions)</sup> |
 
 <a href='#^act-ext'>^</a><a name='act-ext'>1</a> __Action Extension:__ Accepts files, URLs or other data from another app's share sheet. <br/>
 Indirect means a shortcut will be called by a category entry.<br/>
@@ -84,7 +84,7 @@ Support means a short will be called by Indirect shortcuts as a supportive tool.
 [fd-aimg-i]: <https://www.icloud.com/shortcuts/f2686716696e4f1fa299c719ea416fa1>
 [fwfd-igm]: <xml/f.w.%20f.d.%20Get%20IG%20Media.shortcut>
 [fwfd-igm-i]: <https://www.icloud.com/shortcuts/8ec71bfb74674194a116fb22c34e46eb>
-[img]:<xml/Image%20Actions.shortcut>
+[img]: <xml/Image%20Actions.shortcut>
 [img-i]: <https://www.icloud.com/shortcuts/53e178455baf4e03b9c573a5f2b0850f>
 [fi-trim]: <xml/f.i.%20Trim%20Screenshot.shortcut>
 [fi-trim-i]: <https://www.icloud.com/shortcuts/5b7b4bdff09745e7b2dcebf57b42c678>
