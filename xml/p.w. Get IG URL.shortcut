@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowActions</key>
+	<array>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.gettext</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>460BC57B-2F54-48F8-8821-731C503E79FD</string>
+				<key>WFTextActionText</key>
+				<string>{
+                                "__typename": "GraphImage",
+                                "id": "1910033584926678544",
+                                "shortcode": "BqBzWz6nt4Q",
+                                "dimensions": {
+                                    "height": 1080,
+                                    "width": 1080
+                                },
+                                "gating_info": null,
+                                "media_preview": "ACoqvRYuIPLHykccjuO/uD1yP50g09SFLkll54Jx/wDqpl3evC2xVB46k1nm6llB3Nj2FYNr+mbJPoaxWGcG3zkqM8dvcH/6/tWbLY+SQAQ5PQZOfyJqCPdFllyG7YOARSclxIxJIIOOvP1NNSFyN7mhHZs8ed20tngjjB/UE1B/Z0w6MmPw/wAK0YpzdRtj5WHH+f5U1bVcDcxz3wB171V30Jtbcxpi8rE9ueff/wCtUAjcMNp5PrVmdNhIPQHimhDjK1inodNrjZy8eO+aaCTyeD/nj/69BYt1p8QLEnsKfQnV9R0MrQvuH4j271vCRWGfXmufbHb/AD2qypbA+lLmcdgcVIu3VsJRuHXsexHtWaC0J2vnbnt2/wAataOxaNlJyAeAeg+lW5gCKqS5dfwIhJ7GC55+X/8AXUiuVUr69aYRyPrWnCi46Dp6UpaFLXUqxxGU+w/zz9a1AoAx6UmAAMcVfVFwOB09KcVzasmT6H//2Q==",
+                                "display_url": "https://instagram.ftpe7-4.fna.fbcdn.net/vp/535eb97b8ac4caf5ffea5719ee742ef6/5C6373E2/t51.2885-15/e35/44626698_723116304715041_1209292587494592436_n.jpg?se=7",
+                                "display_resources": [{
+                                    "src": "https://instagram.ftpe7-4.fna.fbcdn.net/vp/35f4b9d780cc7efd399a90cbfbb0880f/5C64D607/t51.2885-15/sh0.08/e35/s640x640/44626698_723116304715041_1209292587494592436_n.jpg",
+                                    "config_width": 640,
+                                    "config_height": 640
+                                }, {
+                                    "src": "https://instagram.ftpe7-4.fna.fbcdn.net/vp/cce7557d64290d98908d226333d2ec85/5C7E7D07/t51.2885-15/sh0.08/e35/s750x750/44626698_723116304715041_1209292587494592436_n.jpg",
+                                    "config_width": 750,
+                                    "config_height": 750
+                                }, {
+                                    "src": "https://instagram.ftpe7-4.fna.fbcdn.net/vp/535eb97b8ac4caf5ffea5719ee742ef6/5C6373E2/t51.2885-15/e35/44626698_723116304715041_1209292587494592436_n.jpg?se=7",
+                                    "config_width": 1080,
+                                    "config_height": 1080
+                                }],
+                                "accessibility_caption": null,
+                                "is_video": false,
+                                "should_log_client_event": false,
+                                "tracking_token": "eyJ2ZXJzaW9uIjo1LCJwYXlsb2FkIjp7ImlzX2FuYWx5dGljc190cmFja2VkIjpmYWxzZSwidXVpZCI6ImE5ZDg2OTZiMDA1MzQyZjNhOTRjNWU1MDRiNjdiYWUyMTkxMDAzMzU4NDkyNjY3ODU0NCIsInNlcnZlcl90b2tlbiI6IjE1NDE5MjU4NTU5ODl8MTkxMDAzMzU4NDkyNjY3ODU0NHwyNjM0MTM4fDQyOWM1MWEyMTEwZmZlZTk2OTU2ZWNjMGJjZTkzMmE4MDczZjUzYzAxZGEzZjNmMDhhNTQ4MWEzNmFhZGY1YTIifSwic2lnbmF0dXJlIjoiIn0=",
+                                "edge_media_to_tagged_user": {
+                                    "edges": []
+                                }
+                            }
+                        </string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFVariable</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>ExtensionInput</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.setvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFVariableName</key>
+				<string>node</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getvalueforkey</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>0AEA7C6F-D851-4E14-992D-1219CEDD6C93</string>
+				<key>WFDictionaryKey</key>
+				<string>__typename</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.match</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>0729E83F-C538-45C0-8A84-3F8E2AEE10BB</string>
+				<key>WFMatchTextCaseSensitive</key>
+				<false/>
+				<key>WFMatchTextPattern</key>
+				<string>Graph(Image|Video)</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.text.changecase</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>C25F6D41-8B91-4913-B87A-3B714091959C</string>
+				<key>WFCaseType</key>
+				<string>lowercase</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>C36F0639-D0C6-44DE-8BE7-4A28B28FA42F</string>
+				<key>WFConditionalActionString</key>
+				<string>video</string>
+				<key>WFControlFlowMode</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFVariable</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>node</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getvalueforkey</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>UUID</key>
+				<string>F020E465-423E-49FA-ABDF-28078F67E0EC</string>
+				<key>WFDictionaryKey</key>
+				<string>video_url</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>C36F0639-D0C6-44DE-8BE7-4A28B28FA42F</string>
+				<key>WFControlFlowMode</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getvariable</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFVariable</key>
+				<dict>
+					<key>Value</key>
+					<dict>
+						<key>Type</key>
+						<string>Variable</string>
+						<key>VariableName</key>
+						<string>node</string>
+					</dict>
+					<key>WFSerializationType</key>
+					<string>WFTextTokenAttachment</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.getvalueforkey</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>WFDictionaryKey</key>
+				<string>display_url</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>WFWorkflowActionIdentifier</key>
+			<string>is.workflow.actions.conditional</string>
+			<key>WFWorkflowActionParameters</key>
+			<dict>
+				<key>GroupingIdentifier</key>
+				<string>C36F0639-D0C6-44DE-8BE7-4A28B28FA42F</string>
+				<key>WFControlFlowMode</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+	</array>
+	<key>WFWorkflowClientRelease</key>
+	<string>2.1.1</string>
+	<key>WFWorkflowClientVersion</key>
+	<string>736</string>
+	<key>WFWorkflowIcon</key>
+	<dict>
+		<key>WFWorkflowIconGlyphNumber</key>
+		<integer>59511</integer>
+		<key>WFWorkflowIconImageData</key>
+		<data>
+		</data>
+		<key>WFWorkflowIconStartColor</key>
+		<integer>3679049983</integer>
+	</dict>
+	<key>WFWorkflowImportQuestions</key>
+	<array/>
+	<key>WFWorkflowInputContentItemClasses</key>
+	<array>
+		<string>WFAppStoreAppContentItem</string>
+		<string>WFArticleContentItem</string>
+		<string>WFContactContentItem</string>
+		<string>WFDateContentItem</string>
+		<string>WFEmailAddressContentItem</string>
+		<string>WFGenericFileContentItem</string>
+		<string>WFImageContentItem</string>
+		<string>WFiTunesProductContentItem</string>
+		<string>WFLocationContentItem</string>
+		<string>WFDCMapsLinkContentItem</string>
+		<string>WFAVAssetContentItem</string>
+		<string>WFPDFContentItem</string>
+		<string>WFPhoneNumberContentItem</string>
+		<string>WFRichTextContentItem</string>
+		<string>WFSafariWebPageContentItem</string>
+		<string>WFStringContentItem</string>
+		<string>WFURLContentItem</string>
+	</array>
+	<key>WFWorkflowMinimumClientVersion</key>
+	<integer>411</integer>
+	<key>WFWorkflowTypes</key>
+	<array>
+		<string>WatchKit</string>
+	</array>
+</dict>
+</plist>
