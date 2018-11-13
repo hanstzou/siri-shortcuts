@@ -1,10 +1,11 @@
 # Siri Shortcut Collection
 
-Some of my daily used Siri shortcuts.
+Here collects some of my frequently used Siri shortcuts.
 The table is inspired by [Ticky](https://github.com/ticky/siri-shortcuts/).
 
-Many of these shortcuts are categorized into 5 categories, namely:
+Many of these shortcuts are categorized into 6 categories, namely:
   - text actions
+  - query (and open in WebView)
   - URL handling actions
   - web actions
   - download actions
