@@ -14,32 +14,32 @@ Many of these shortcuts are categorized into 6 categories, namely:
 Each category has an entry shortcut to run from the share sheet.
 
 
-| Shortcut<br/> Name & XML | iCloud | Description | Category | Action Extension<sup><a href='#act-ext' name='^act-ext'>1</a></sup> | Widget | Depends On | Source |
-| ------------------------ | :----: | ----------- | -------- | :-----------------------------------------------------------------: | :----: | ---------- | ------ |
-| [**Debug Input**][dbg] | [Get][dbg-i] | Debugging inspect whatever input | - | YES | NO | - | - |
-| [**Copy**][cp] | [Get][cp-i] | Copy whatever input | - | YES | NO | - | - |
-| [**Backup/Restore**][bak] | [Get][bak-i] | Backup & Restore shortcuts | - | NO | NO | - | [@brentacPrime][bak-src] |
-| [**Trim Screenshot**][trim] | [Get][trim-i] | Call `f.i. Trim Screenshot` to trim the most current screenshot | `image` | NO | YES | <ul><li>[x] f.i. Trim Screenshot</li></ul> | - |
-| [**Run Clipboard**][clip] | [Get][clip-i] | Fetch whatever on the clipboard and launch the share sheet | - | YES<br/><sup>(but use clipboard content instead)</sup> | YES | - | - |
-| [**MRT Time**][mrt] | [Get][mrt-i] | Given Taipei Metro station ID and direction, report current time table | - | NO | YES | <ul><li>[x] f. Choose from Dictionary List</li></ul> | - |
-| [**Safari Viewer**][sf] | [Get][sf-i] | Open URLs in an in-app WKWebView | `url` | YES | NO | - | - |
-| [**Get Map Address**][addr] | [Get][addr-i] | Get address from contacts, Apple/Google Maps venues | `contacts` | YES | NO | - | - |
-| [**f. Filter List**][f-fltr] | [Get][f-fltr-i] | Given list `[e, e, ...]` and regex `r`, output `[e if r.match(e), ...]` | - | NO | NO | - | - |
-| [**f. Hex to Dec**][f-0x] | [Get][f-0x-i] | Given hex number, output decimal | - | NO | NO | - | - |
-| [**f. Choose from Dictionary List**][f-cdl] | [Get][f-cdl-i] | Given a1 (`[dict, dict, ...]`), a2 (key), a3 (value criteria), output `dict` by chooseing from `dict[a2]` or output the first `dict` if `dict[a2] ~ a3` | - | NO | NO | - | - |
-| [**f. 2. Call Function**][f-fn] | [Get][f-fn-i] | Given shortcut and arglist, pass arglist all-at-once (if `m.` in shortcut name) or 1-by-1 (otherwise) to the shortcut | - | NO | NO | - | - |
-| [**f. 3. Select Function**][f-selfn] | [Get][f-selfn-i] | Given category, prefix, and usage message, display functions of the prefix for choosing | - | NO | NO | - | - |
-| [**Web Actions**][web] | [Get][web-i] | Call `f.w` functions on input webpage | `web` | YES | NO | <ul><li>[x] f. 2. Call Function</li><li>[x] f. 3. Select Function</li></ul> | - |
-| [**f.w. f.u. Get HTML**][fwfu-htm] | [Get][fwfu-htm-i] | Output HTML of a Web page or an URL | `web`</br>`url` | Indirect | NO | - | - |
-| [**p.w. Get IG URL**][pw-ig] | [Get][pw-ig-i] | Extract URLs from IG JSON node | `web`<br/>`download` | Support | NO | - | - |
-| [**Download Actions**][dl] | [Get][dl-i] | Call `f.d.` on input URLs to download certain contents | `download` | YES | NO | <ul><li>[x] f. 2. Call Function</li><li>[x] f. 3. Select Function</li></ul> | - |
-| [**f.d. App Images**][fd-aimg] | [Get][fd-aimg-i] | Given an App's iTunes URL, download its screenshot images | `download` | Indirect | NO | - | - |
-| [**f.w. f.d. Get IG Media**][fwfd-igm] | [Get][fwfd-igm-i] | Given IG URLs/Web pages, download media contents | `web`<br/>`download` | NO | NO | <ul><li>[x] p.w. Get IG URL</li></ul> | - |
-| [**Image Actions**][img] | [Get][img-i] | Call `f.i.` functions on input images | `image` | YES | NO | <ul><li>[x] f. 2. Call Function</li><li>[x] f. 3. Select Function</li></ul> | - |
-| [**f.i. Trim Screenshot**][fi-trim] | [Get][fi-trim-i] | Trim out the status bar from a screenshot | `image` | Indirect | NO | - | - |
-| [**f.i.m. Glue Screenshots**][fim-glue] | [Get][fim-glue-i] | Combine multiple screenshots from left to right | `image` | Indirect | NO | - | - |
-| [**f.i. Imgur**][fi-imgur] | [Get][fi-imgur-i] | Upload photo to imgur <br/><sup>(:warning: Need an one-time setup for Imgur in Shortcut app)</sup> | `image` | Indirect | NO | - | - |
-| [**f.i. Photo Map Thumbnail v2**][fi-imgmap] | [Get][fi-imgmap-i] | Add a coordinate map to a photo | `image` | Indirect | NO | - | [Reddit @atomicsiren][fi-imgmap-src] <br/><sup>(Modified to integrate into Image Actions)</sup> |
+| Shortcut<br/> Name & XML | iCloud | Depends On | Description | Category | Action Extension<sup><a href='#act-ext' name='^act-ext'>1</a></sup> | Widget | Source |
+| ------------------------ | :----: | ---------- | ----------- | -------- | :-----------------------------------------------------------------: | :----: | ------ |
+| [**Debug Input**][dbg] | [Get][dbg-i] | - | Debugging inspect whatever input | - | YES | NO | - |
+| [**Copy**][cp] | [Get][cp-i] | - | Copy whatever input | - | YES | NO | - |
+| [**Backup/Restore**][bak] | [Get][bak-i] | - | Backup & Restore shortcuts | - | NO | NO | [@brentacPrime][bak-src] |
+| [**Trim Screenshot**][trim] | [Get][trim-i] | <ul><li>[x] f.i. Trim Screenshot</li></ul> | Call `f.i. Trim Screenshot` to trim the most current screenshot | `image` | NO | YES | - |
+| [**Run Clipboard**][clip] | [Get][clip-i] | - | Fetch whatever on the clipboard and launch the share sheet | - | YES<br/><sup>(but use clipboard content instead)</sup> | YES | - |
+| [**MRT Time**][mrt] | [Get][mrt-i] | <ul><li>[x] f. Choose from Dictionary List</li></ul> | Given Taipei Metro station ID and direction, report current time table | - | NO | YES | - |
+| [**Safari Viewer**][sf] | [Get][sf-i] | - | Open URLs in an in-app WKWebView | `url` | YES | NO | - |
+| [**Get Map Address**][addr] | [Get][addr-i] | - | Get address from contacts, Apple/Google Maps venues | `contacts` | YES | NO | - |
+| [**f. Filter List**][f-fltr] | [Get][f-fltr-i] | - | Given list `[e, e, ...]` and regex `r`, output `[e if r.match(e), ...]` | - | NO | NO | - |
+| [**f. Hex to Dec**][f-0x] | [Get][f-0x-i] | - | Given hex number, output decimal | - | NO | NO | - |
+| [**f. Choose from Dictionary List**][f-cdl] | [Get][f-cdl-i] | - | Given a1 (`[dict, dict, ...]`), a2 (key), a3 (value criteria), output `dict` by chooseing from `dict[a2]` or output the first `dict` if `dict[a2] ~ a3` | - | NO | NO | - |
+| [**f. 2. Call Function**][f-fn] | [Get][f-fn-i] | - | Given shortcut and arglist, pass arglist all-at-once (if `m.` in shortcut name) or 1-by-1 (otherwise) to the shortcut | - | NO | NO | - |
+| [**f. 3. Select Function**][f-selfn] | [Get][f-selfn-i] | - | Given category, prefix, and usage message, display functions of the prefix for choosing | - | NO | NO | - |
+| [**Web Actions**][web] | [Get][web-i] | <ul><li>[x] f. 2. Call Function</li><li>[x] f. 3. Select Function</li></ul> | Call `f.w` functions on input webpage | `web` | YES | NO | - |
+| [**f.w. f.u. Get HTML**][fwfu-htm] | [Get][fwfu-htm-i] | - | Output HTML of a Web page or an URL | `web`</br>`url` | Indirect | NO | - |
+| [**p.w. Get IG URL**][pw-ig] | [Get][pw-ig-i] | - | Extract URLs from IG JSON node | `web`<br/>`download` | Support | NO | - |
+| [**Download Actions**][dl] | [Get][dl-i] | <ul><li>[x] f. 2. Call Function</li><li>[x] f. 3. Select Function</li></ul> | Call `f.d.` on input URLs to download certain contents | `download` | YES | NO | - |
+| [**f.d. App Images**][fd-aimg] | [Get][fd-aimg-i] | - | Given an App's iTunes URL, download its screenshot images | `download` | Indirect | NO | - |
+| [**f.w. f.d. Get IG Media**][fwfd-igm] | [Get][fwfd-igm-i] | <ul><li>[x] p.w. Get IG URL</li></ul> | Given IG URLs/Web pages, download media contents | `web`<br/>`download` | NO | NO | - |
+| [**Image Actions**][img] | [Get][img-i] | <ul><li>[x] f. 2. Call Function</li><li>[x] f. 3. Select Function</li></ul> | Call `f.i.` functions on input images | `image` | YES | NO | - |
+| [**f.i. Trim Screenshot**][fi-trim] | [Get][fi-trim-i] | - | Trim out the status bar from a screenshot | `image` | Indirect | NO | - |
+| [**f.i.m. Glue Screenshots**][fim-glue] | [Get][fim-glue-i] | - | Combine multiple screenshots from left to right | `image` | Indirect | NO | - |
+| [**f.i. Imgur**][fi-imgur] | [Get][fi-imgur-i] | - | Upload photo to imgur <br/><sup>(:warning: Need an one-time setup for Imgur in Shortcut app)</sup> | `image` | Indirect | NO | - |
+| [**f.i. Photo Map Thumbnail v2**][fi-imgmap] | [Get][fi-imgmap-i] | - | Add a coordinate map to a photo | `image` | Indirect | NO | [Reddit @atomicsiren][fi-imgmap-src] <br/><sup>(Modified to integrate into Image Actions)</sup> |
 
 <a href='#^act-ext'>^</a><a name='act-ext'>1</a> __Action Extension:__ Accepts files, URLs or other data from another app's share sheet. <br/>
 Indirect means a shortcut will be called by a category entry.<br/>
