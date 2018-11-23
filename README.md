@@ -29,6 +29,12 @@ Each category has an entry shortcut to run from the share sheet.
 | [**f. Choose from Dictionary List**][f-cdl] | [Get][f-cdl-i] | - | Given a1 (`[dict, dict, ...]`), a2 (key), a3 (value criteria), output `dict` by chooseing from `dict[a2]` or output the first `dict` if `dict[a2] ~ a3` | - | NO | NO | - |
 | [**f. 2. Call Function**][f-fn] | [Get][f-fn-i] | - | Given shortcut and arglist, pass arglist all-at-once (if `m.` in shortcut name) or 1-by-1 (otherwise) to the shortcut | - | NO | NO | - |
 | [**f. 3. Select Function**][f-selfn] | [Get][f-selfn-i] | - | Given category, prefix, and usage message, display functions of the prefix for choosing | - | NO | NO | - |
+| [**Text Actions**][txt] | [Get][txt-i] | <ul><li>[x] f. 2. Call Function</li><li>[x] f. 3. Select Function</li></ul> | Call `f.t.` functions on input text | `text` | YES | NO | - |
+| [**f.t. Suggest**][ft-sug] | [Get][ft-sug-i] | - | Send input text to Google for suggestions | `text` | Indirect | NO | - |
+| [**f.t. Look Up**][ft-lkup] | [Get][ft-lkup-i] | <ul><li>[x] p.t. Strip</li><li>[x] p.t. Remove Links</li></ul>| Look up input text in system dictionaries (not very useful) | `text` | Indirect | NO | - |
+| [**f.t. Speak**][ft-spk] | [Get][ft-spk-i] | <ul><li>[x] p.t. Remove Links</li></ul> | Read out input text | `text` | Indirect | NO | - |
+| [**p.t. Remove Links**][pt-rmln] | [Get][pt-rmln-i] | - | Remove URLs from input text | `text` | Support | NO | - |
+| [**p.t. Strip**][pt-strip] | [Get][pt-strip-i] | - | Strip beginning/ending whitespaces | `text` | Support | NO | - |
 | [**Web Actions**][web] | [Get][web-i] | <ul><li>[x] f. 2. Call Function</li><li>[x] f. 3. Select Function</li></ul> | Call `f.w` functions on input webpage | `web` | YES | NO | - |
 | [**f.w. f.u. Get HTML**][fwfu-htm] | [Get][fwfu-htm-i] | - | Output HTML of a Web page or an URL | `web`</br>`url` | Indirect | NO | - |
 | [**p.w. Get IG URL**][pw-ig] | [Get][pw-ig-i] | - | Extract URLs from IG JSON node | `web`<br/>`download` | Support | NO | - |
@@ -73,6 +79,18 @@ Support means a short will be called by Indirect shortcuts as a supportive tool.
 [f-fn-i]: <https://www.icloud.com/shortcuts/f5b310f99c4a4f2e99440a405b8d97ca>
 [f-selfn]: <xml/f.%203.%20Select%20Function.shortcut>
 [f-selfn-i]: <https://www.icloud.com/shortcuts/6a3dbb4c49504839942d6a40a9637786>
+[txt]: <xml/Text%20Actions.shortcut>
+[txt-i]: <https://www.icloud.com/shortcuts/e757c73cdbc84fa1a1a6a32b7e3467a2>
+[ft-sug]: <xml/f.t.%20Suggest.shortcut>
+[ft-sug-i]: <https://www.icloud.com/shortcuts/ab646250c4c44943b854129917a079da>
+[ft-lkup]: <xml/f.t.%20Look%20Up.shortcut>
+[ft-lkup-i]: <https://www.icloud.com/shortcuts/1e51b73e47734e0d9a101d77ebbb1dd7>
+[ft-spk]: <xml/f.t.%20Speak.shortcut>
+[ft-spk-i]: <https://www.icloud.com/shortcuts/3bdf1da1f690458684e0c5136d17adbe>
+[pt-rmln]: <xml/p.t.%20Remove%20Links.shortcut>
+[pt-rmln-i]: <https://www.icloud.com/shortcuts/1ca1e52743f243749ee96ac7668eb77b>
+[pt-strip]: <xml/p.t.%20Strip.shortcut>
+[pt-strip-i]: <https://www.icloud.com/shortcuts/5eaca52aa3304b06a4cd05b5ea3fed58>
 [web]: <xml/Web%20Actions.shortcut>
 [web-i]: <https://www.icloud.com/shortcuts/cff2a6f1a9f14c4691ded49d418f5e17>
 [fwfu-htm]: <xml/f.w.%20f.u.%20Get%20HTML.shortcut>
