@@ -71,7 +71,7 @@
 				<key>WFReplaceTextCaseSensitive</key>
 				<false/>
 				<key>WFReplaceTextFind</key>
-				<string>&amp;?\b(utm_\w+|hc_ref|fbclid|igshid)=[^&amp;#]*</string>
+				<string>&amp;?\b(utm_\w+|hc_ref|(?:g|fb)clid|igshid)=[^&amp;#]*</string>
 				<key>WFReplaceTextRegularExpression</key>
 				<true/>
 				<key>WFReplaceTextReplace</key>
@@ -127,7 +127,7 @@
 				<key>WFMatchTextCaseSensitive</key>
 				<false/>
 				<key>WFMatchTextPattern</key>
-				<string>udn\.com</string>
+				<string>\b(udn\.com|ettoday.net)\b</string>
 			</dict>
 		</dict>
 		<dict>

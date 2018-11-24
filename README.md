@@ -90,7 +90,7 @@ Support means a short will be called by Indirect shortcuts as a supportive tool.
 [dbg]: <xml/Debug%20Input.shortcut>
 [dbg-i]: <https://www.icloud.com/shortcuts/771e4d44f2574d50883e448b96bbba8e>
 [trim]: <xml/Trim%20Screenshot.shortcut>
-[trim-i]: <https://www.icloud.com/shortcuts/c16437ac859740f3afdb0d197c550667>
+[trim-i]: <https://www.icloud.com/shortcuts/15f1716e38b9402b93bea14eeab461cc>
 [clip]: <xml/Run%20Clipboard.shortcut>
 [clip-i]: <https://www.icloud.com/shortcuts/dc005d02c9024647b47d720369b4adcb>
 [mrt]: <xml/MRT%20Time.shortcut>
@@ -151,7 +151,7 @@ Support means a short will be called by Indirect shortcuts as a supportive tool.
 [pu-fb]: <xml/p.u.%20Facebook.shortcut>
 [pu-fb-i]: <https://www.icloud.com/shortcuts/817fb4bd06a3443c9a59afbf501717cf>
 [pu-gmap]: <xml/p.u.%20Google%20Maps.shortcut>
-[pu-gmap-i]: <https://www.icloud.com/shortcuts/b5df17004886442288c77f5c3d5df2c8>
+[pu-gmap-i]: <https://www.icloud.com/shortcuts/895103258c4748299b4448c3702a221a>
 [pu-ptt]: <xml/p.u.%20PTT%20Crawlers.shortcut>
 [pu-ptt-i]: <https://www.icloud.com/shortcuts/303ddaeda8e54de0a5ef2d104f9be31f>
 [pu-spot]: <xml/p.u.%20Spotify.shortcut>
