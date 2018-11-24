@@ -32,9 +32,19 @@ Each category has an entry shortcut to run from the share sheet.
 | [**Text Actions**][txt] | [Get][txt-i] | <ul><li>[x] f. 2. Call Function</li><li>[x] f. 3. Select Function</li></ul> | Call `f.t.` functions on input text | `text` | YES | NO | - |
 | [**f.t. Suggest**][ft-sug] | [Get][ft-sug-i] | - | Send input text to Google for suggestions | `text` | Indirect | NO | - |
 | [**f.t. Look Up**][ft-lkup] | [Get][ft-lkup-i] | <ul><li>[x] p.t. Strip</li><li>[x] p.t. Remove Links</li></ul>| Look up input text in system dictionaries (not very useful) | `text` | Indirect | NO | - |
+| [**f.t. PTT IV**][ft-pttiv] | [Get][ft-pttiv-i] | <ul><li>[x] p.t. PTT IV</li><li>[x] f.u. Bit.ly :key:</li></ul>| Transform PTT Alertor messages into Telegram IV in markdown format | `text` | Indirect | NO | - |
 | [**f.t. Speak**][ft-spk] | [Get][ft-spk-i] | <ul><li>[x] p.t. Remove Links</li></ul> | Read out input text | `text` | Indirect | NO | - |
+| [**p.t. PTT IV**][pt-pttiv] | [Get][pt-pttiv-i] | - | Append PTT url to IV handler | `text` | Support | NO | - |
 | [**p.t. Remove Links**][pt-rmln] | [Get][pt-rmln-i] | - | Remove URLs from input text | `text` | Support | NO | - |
 | [**p.t. Strip**][pt-strip] | [Get][pt-strip-i] | - | Strip beginning/ending whitespaces | `text` | Support | NO | - |
+| [**URL Handling**][url] | [Get][url-i] | <ul><li>[x] f. Filter List</li><li>[x] f. 2. Call Function</li><li>[x] f. 3. Select Function</li></ul> | Call `f.u.` on input URLs to generate new ones | `url` | YES | NO | - |
+| [**f.u. Expand URL**][fu-exp] | [Get][fu-exp-i] | - | Try to expand input URL (e.g. bit.ly) | `url` | Indirect | NO | - |
+| [**f.u. Decode URL**][fu-dec] | [Get][fu-dec-i] | - | Decode (percent-encoded) input URL | `url` | Indirect | NO | - |
+| [**f.u. Bit.ly :key:**][fu-bit] | [Get][fu-bit-i] | - | Shorten input URL with bit.ly <sup>(:warning: Never share this Shortcut with your OAuth token information inside. Remove the token before sharing. Generate your OAuth token [here][bitly-oauth].)</sup> | `url` | Indirect | NO | - |
+| [**f.u. Sanitize URL**][fu-san] | [Get][fu-san-i] | <ul><li>[x] p.u.d. Remove UTM-Alike</li></ul> | Clean up input URL by calling all `p.u.` functions | `url` | Indirect | NO | - |
+| [**p.u. BBC**][pu-bbc] | [Get][pu-bbc-i] | <ul><li>[x] f.u. Expand URL</li><li>[x] p.u.d. Ensure ?#</li></ul> | Given BBC Zhongwen Simplified URLs, output Zhongwen Traditional version | `url` | Support | NO | - |
+| [**p.u.d. Remove UTM-Alike**][pud-noutm] | [Get][pud-noutm-i] | - | Remove tracking queries | `url` | Support Devisions | NO | - |
+| [**p.u.d. Ensure ?#**][pud-ensq] | [Get][pud-ensq-i] | - | Ensure URL queries and fragments | `url` | Support Devisions | NO | - |
 | [**Web Actions**][web] | [Get][web-i] | <ul><li>[x] f. 2. Call Function</li><li>[x] f. 3. Select Function</li></ul> | Call `f.w` functions on input webpage | `web` | YES | NO | - |
 | [**f.w. f.u. Get HTML**][fwfu-htm] | [Get][fwfu-htm-i] | - | Output HTML of a Web page or an URL | `web`</br>`url` | Indirect | NO | - |
 | [**p.w. Get IG URL**][pw-ig] | [Get][pw-ig-i] | - | Extract URLs from IG JSON node | `web`<br/>`download` | Support | NO | - |
@@ -85,12 +95,33 @@ Support means a short will be called by Indirect shortcuts as a supportive tool.
 [ft-sug-i]: <https://www.icloud.com/shortcuts/ab646250c4c44943b854129917a079da>
 [ft-lkup]: <xml/f.t.%20Look%20Up.shortcut>
 [ft-lkup-i]: <https://www.icloud.com/shortcuts/1e51b73e47734e0d9a101d77ebbb1dd7>
+[ft-pttiv]: <xml/f.t.%20PTT%20IV.shortcut>
+[ft-pttiv-i]: <https://www.icloud.com/shortcuts/92f6c5fc8b5b48aeba690e9d99ddfd3b>
 [ft-spk]: <xml/f.t.%20Speak.shortcut>
 [ft-spk-i]: <https://www.icloud.com/shortcuts/3bdf1da1f690458684e0c5136d17adbe>
+[pt-pttiv]: <xml/p.t.%20PTT%20IV.shortcut>
+[pt-pttiv-i]: <https://www.icloud.com/shortcuts/b866fbaaac134c8187528770ad56b4d1>
 [pt-rmln]: <xml/p.t.%20Remove%20Links.shortcut>
 [pt-rmln-i]: <https://www.icloud.com/shortcuts/1ca1e52743f243749ee96ac7668eb77b>
 [pt-strip]: <xml/p.t.%20Strip.shortcut>
 [pt-strip-i]: <https://www.icloud.com/shortcuts/5eaca52aa3304b06a4cd05b5ea3fed58>
+[url]: <xml/URL%20Handling.shortcut>
+[url-i]: <https://www.icloud.com/shortcuts/2534eae229b94b0fbe409df8d3683e45>
+[fu-exp]: <xml/f.u.%20Expand%20URL.shortcut>
+[fu-exp-i]: <https://www.icloud.com/shortcuts/303b66d2cd624fe8a0fff1dd0a96d22d>
+[fu-dec]: <xml/f.u.%20Decode%20URL.shortcut>
+[fu-dec-i]: <https://www.icloud.com/shortcuts/315acfdd64134385aa41bc2cc67645f0>
+[fu-bit]: <xml/f.u.%20Bit.ly%20%F0%9F%94%91.shortcut>
+[fu-bit-i]: <https://www.icloud.com/shortcuts/a64622a8f4694b21955490fd3c052c7d>
+[bitly-oauth]: <https://app.bitly.com/performance/?actions=accountMain&actions=settings&actions=advancedSettings>
+[fu-san]: <xml/f.u.%20Sanitize%20URL.shortcut>
+[fu-san-i]: <https://www.icloud.com/shortcuts/3f72a36967044af39a220daeeb497253>
+[pu-bbc]:<xml/p.u.%20BBC.shortcut>
+[pu-bbc-i]: <https://www.icloud.com/shortcuts/69ad9de923964fab936d81964fc8cd4c>
+[pud-noutm]: <xml/p.u.d.%20Remove%20UTM-Alike.shortcut>
+[pud-noutm-i]: <https://www.icloud.com/shortcuts/d2b72d4725e0494f9bd352b5ea02b32d>
+[pud-ensq]: <xml/p.u.d.%20Ensure%20%3F%23.shortcut>
+[pud-ensq-i]: <https://www.icloud.com/shortcuts/23d293aab2c6417eb8a54a94ac515a2f>
 [web]: <xml/Web%20Actions.shortcut>
 [web-i]: <https://www.icloud.com/shortcuts/cff2a6f1a9f14c4691ded49d418f5e17>
 [fwfu-htm]: <xml/f.w.%20f.u.%20Get%20HTML.shortcut>
