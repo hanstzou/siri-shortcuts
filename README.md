@@ -37,6 +37,9 @@ Each category has an entry shortcut to run from the share sheet.
 | [**p.t. PTT IV**][pt-pttiv] | [Get][pt-pttiv-i] | - | Append PTT url to IV handler | `text` | Support | NO | - |
 | [**p.t. Remove Links**][pt-rmln] | [Get][pt-rmln-i] | - | Remove URLs from input text | `text` | Support | NO | - |
 | [**p.t. Strip**][pt-strip] | [Get][pt-strip-i] | - | Strip beginning/ending whitespaces | `text` | Support | NO | - |
+| [**Make &amp; Open URL**][make-open-url] | [Get][make-open-url-i] | <ul><li>[x] f. 3. Select Function</li><li>[x] f. 2. Call Function</li><li>[x] f.u. Decode URL</li><li>[x] Safari Viewer</li></ul> | Given input text, generate URLs with `f.q.` functions (such as query) and open with in-app Browser | `query` | YES | NO | - |
+| [**f.q. Search**][fq-search] | [Get][fq-search-i] | - | Generate search URLs | `query` | Indirect | NO | - |
+| [**f.q. Tracking**][fq-tracking] | [Get][fq-tracking-i] | - | Generate package tracking URLs | `query` | Indirect | NO | - |
 | [**URL Handling**][url] | [Get][url-i] | <ul><li>[x] f. Filter List</li><li>[x] f. 2. Call Function</li><li>[x] f. 3. Select Function</li></ul> | Call `f.u.` on input URLs to generate new ones | `url` | YES | NO | - |
 | [**f.u. Expand URL**][fu-exp] | [Get][fu-exp-i] | - | Try to expand input URL (e.g. bit.ly) | `url` | Indirect | NO | - |
 | [**f.u. Decode URL**][fu-dec] | [Get][fu-dec-i] | - | Decode (percent-encoded) input URL | `url` | Indirect | NO | - |
@@ -51,7 +54,7 @@ Each category has an entry shortcut to run from the share sheet.
 | [**p.u. Spotify**][pu-spot] | [Get][pu-spot-i] | <ul><li>[x] p.u.d. Ensure ?#</li></ul> | Sanitize Spotidy share URLs | `url` | Indirect | NO | - |
 | [**p.u. The Verge**][pu-vg] | [Get][pu-vg-i] | - | Shorten the Verge URLs | `url` | Indirect | NO | - |
 | [**p.u. Wiki zh**][pu-wiki] | [Get][pu-wiki-i] | - | Given Wiki zh URLs, output Taiwan version | `url` | Indirect | NO | - |
-| [**p.u.d. Remove UTM-Alike**][pud-noutm] | [Get][pud-noutm-i] | - | Remove tracking queries | `url` | Support Devisions | NO | - |
+| [**p.u.d. Remove UTM-Alike**][pud-noutm] | [Get][pud-noutm-i] | - | Remove user tracker queries | `url` | Support Devisions | NO | - |
 | [**p.u.d. Ensure ?#**][pud-ensq] | [Get][pud-ensq-i] | - | Ensure URL queries and fragments | `url` | Support Devisions | NO | - |
 | [**p.u.d. Facebook Notes**][pud-fbn] | [Get][pud-fbn-i] | - | Sanitize Facebook notes URLs | `url` | Support Devisions | NO | - |
 | [**p.u.d. Facebook Photo-Set**][pud-fbphs] | [Get][pud-fbphs-i] | - | Sanitize Facebook photo set URLs | `url` | Support Devisions | NO | - |
@@ -121,6 +124,12 @@ Support means a short will be called by Indirect shortcuts as a supportive tool.
 [pt-rmln-i]: <https://www.icloud.com/shortcuts/1ca1e52743f243749ee96ac7668eb77b>
 [pt-strip]: <xml/p.t.%20Strip.shortcut>
 [pt-strip-i]: <https://www.icloud.com/shortcuts/5eaca52aa3304b06a4cd05b5ea3fed58>
+[make-open-url]: <xml/Make%20%26%20Open%20URL.shortcut>
+[make-open-url-i]: <https://www.icloud.com/shortcuts/c13a948234654f34b9afb3b2867c5ec1>
+[fq-search]: <xml/f.q.%20Search.shortcut>
+[fq-search-i]: <https://www.icloud.com/shortcuts/a27f9bf0c0ee47778d11a2862935a7e5>
+[fq-tracking]: <xml/f.q.%20Tracking.shortcut>
+[fq-tracking-i]: <https://www.icloud.com/shortcuts/6ff15a244df3494eb162ab317c4364ff>
 [url]: <xml/URL%20Handling.shortcut>
 [url-i]: <https://www.icloud.com/shortcuts/2534eae229b94b0fbe409df8d3683e45>
 [fu-exp]: <xml/f.u.%20Expand%20URL.shortcut>
