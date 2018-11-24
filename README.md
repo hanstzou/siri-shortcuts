@@ -43,8 +43,24 @@ Each category has an entry shortcut to run from the share sheet.
 | [**f.u. Bit.ly :key:**][fu-bit] | [Get][fu-bit-i] | - | Shorten input URL with bit.ly <sup>(:warning: Never share this Shortcut with your OAuth token information inside. Remove the token before sharing. Generate your OAuth token [here][bitly-oauth].)</sup> | `url` | Indirect | NO | - |
 | [**f.u. Sanitize URL**][fu-san] | [Get][fu-san-i] | <ul><li>[x] p.u.d. Remove UTM-Alike</li></ul> | Clean up input URL by calling all `p.u.` functions | `url` | Indirect | NO | - |
 | [**p.u. BBC**][pu-bbc] | [Get][pu-bbc-i] | <ul><li>[x] f.u. Expand URL</li><li>[x] p.u.d. Ensure ?#</li></ul> | Given BBC Zhongwen Simplified URLs, output Zhongwen Traditional version | `url` | Support | NO | - |
+| [**p.u. Bloomberg**][pu-bg] | [Get][pu-bg-i] | <ul><li>[x] f.u. Expand URL</li></ul> | Expand Bloomberg short URLs | `url` | Indirect | NO | - |
+| [**p.u. DW.com**][pu-dw] | [Get][pu-dw-i] | <ul><li>[x] p.u.d. Ensure ?#</li></ul> | Given DW Chinese version, output Chinese Traditional version | `url` | Indirect | NO | - |
+| [**p.u. Facebook**][pu-fb] | [Get][pu-fb-i] | <ul><li>[x] p.u.d. Facebook Photos</li><li>[x] p.u.d. Facebook Photo-Set</li><li>[x] p.u.d. Facebook Story</li><li>[x] p.u.d. Facebook Notes</li></ul> | Sanitize Facebook URLs with several `p.u.d.` helpers | `url` | Indirect | NO | - |
+| [**p.u. Google Maps**][pu-gmap] | [Get][pu-gmap-i] | <ul><li>[x] f. Hex to Dec</li></ul> | Output Google Maps venue's URL | `url` | Indirect | NO | - |
+| [**p.u. PTT Crawlers**][pu-ptt] | [Get][pu-ptt-i] | <ul><li>[x] p.u.d PTT Friendly</li><li>[x] p.u.d PTTWeb</li><li>[x] p.u.d MOPTT</li><li>[x] p.u.d PTT Ask 18</li></ul> | Sanitize PTT URLs with several `p.u.d.` helpers | `url` | Indirect | NO | - |
+| [**p.u. Spotify**][pu-spot] | [Get][pu-spot-i] | <ul><li>[x] p.u.d. Ensure ?#</li></ul> | Sanitize Spotidy share URLs | `url` | Indirect | NO | - |
+| [**p.u. The Verge**][pu-vg] | [Get][pu-vg-i] | - | Shorten the Verge URLs | `url` | Indirect | NO | - |
+| [**p.u. Wiki zh**][pu-wiki] | [Get][pu-wiki-i] | - | Given Wiki zh URLs, output Taiwan version | `url` | Indirect | NO | - |
 | [**p.u.d. Remove UTM-Alike**][pud-noutm] | [Get][pud-noutm-i] | - | Remove tracking queries | `url` | Support Devisions | NO | - |
 | [**p.u.d. Ensure ?#**][pud-ensq] | [Get][pud-ensq-i] | - | Ensure URL queries and fragments | `url` | Support Devisions | NO | - |
+| [**p.u.d. Facebook Notes**][pud-fbn] | [Get][pud-fbn-i] | - | Sanitize Facebook notes URLs | `url` | Support Devisions | NO | - |
+| [**p.u.d. Facebook Photo-Set**][pud-fbphs] | [Get][pud-fbphs-i] | - | Sanitize Facebook photo set URLs | `url` | Support Devisions | NO | - |
+| [**p.u.d. Facebook Photos**][pud-fbph] | [Get][pud-fbph-i] | - | Sanitize Facebook photos URLs | `url` | Support Devisions | NO | - |
+| [**p.u.d. Facebook Story**][pud-fbstory] | [Get][pud-fbstory-i] | - | Sanitize Facebook stories URLs | `url` | Support Devisions | NO | - |
+| [**p.u.d PTT Ask 18**][pud-ptt18] | [Get][pud-ptt18-i] | - | Remove PTT warning page URLs | `url` | Support Devisions | NO | - |
+| [**p.u.d PTT Friendly**][pud-pttf] | [Get][pud-pttf-i] | - | Sanitize more firendly PTT crawlers URLs | `url` | Support Devisions | NO | - |
+| [**p.u.d PTTWeb**][pud-pttw] | [Get][pud-pttw-i] | - | Sanitize PTTWeb crawler URLs | `url` | Support Devisions | NO | - |
+| [**p.u.d MOPTT**][pud-moptt] | [Get][pud-moptt-i] | - | Sanitize MOPTT crawler URLs | `url` | Support Devisions | NO | - |
 | [**Web Actions**][web] | [Get][web-i] | <ul><li>[x] f. 2. Call Function</li><li>[x] f. 3. Select Function</li></ul> | Call `f.w` functions on input webpage | `web` | YES | NO | - |
 | [**f.w. f.u. Get HTML**][fwfu-htm] | [Get][fwfu-htm-i] | - | Output HTML of a Web page or an URL | `web`</br>`url` | Indirect | NO | - |
 | [**p.w. Get IG URL**][pw-ig] | [Get][pw-ig-i] | - | Extract URLs from IG JSON node | `web`<br/>`download` | Support | NO | - |
@@ -118,10 +134,42 @@ Support means a short will be called by Indirect shortcuts as a supportive tool.
 [fu-san-i]: <https://www.icloud.com/shortcuts/3f72a36967044af39a220daeeb497253>
 [pu-bbc]:<xml/p.u.%20BBC.shortcut>
 [pu-bbc-i]: <https://www.icloud.com/shortcuts/69ad9de923964fab936d81964fc8cd4c>
+[pu-bg]: <xml/p.u.%20Bloomberg.shortcut>
+[pu-bg-i]: <https://www.icloud.com/shortcuts/27bd66d68a7f4442b6f8d356fcaba236>
+[pu-dw]: <xml/p.u.%20DW.com.shortcut>
+[pu-dw-i]: <https://www.icloud.com/shortcuts/0d3ff07441484d4a966608fb204e1f7d>
+[pu-fb]: <xml/p.u.%20Facebook.shortcut>
+[pu-fb-i]: <https://www.icloud.com/shortcuts/817fb4bd06a3443c9a59afbf501717cf>
+[pu-gmap]: <xml/p.u.%20Google%20Maps.shortcut>
+[pu-gmap-i]: <https://www.icloud.com/shortcuts/b5df17004886442288c77f5c3d5df2c8>
+[pu-ptt]: <xml/p.u.%20PTT%20Crawlers.shortcut>
+[pu-ptt-i]: <https://www.icloud.com/shortcuts/303ddaeda8e54de0a5ef2d104f9be31f>
+[pu-spot]: <xml/p.u.%20Spotify.shortcut>
+[pu-spot-i]: <https://www.icloud.com/shortcuts/e4855afa78d2412ab71c3716266d89c2>
+[pu-vg]: <xml/p.u.%20The%20Verge.shortcut>
+[pu-vg-i]: <https://www.icloud.com/shortcuts/ea00dd1a12a44b13a4e9340c16ce8045>
+[pu-wiki]: <xml/p.u.%20Wiki%20zh.shortcut>
+[pu-wiki-i]: <https://www.icloud.com/shortcuts/7fcd03bc47b640b2bc044775dcc37b8b>
 [pud-noutm]: <xml/p.u.d.%20Remove%20UTM-Alike.shortcut>
 [pud-noutm-i]: <https://www.icloud.com/shortcuts/d2b72d4725e0494f9bd352b5ea02b32d>
 [pud-ensq]: <xml/p.u.d.%20Ensure%20%3F%23.shortcut>
 [pud-ensq-i]: <https://www.icloud.com/shortcuts/23d293aab2c6417eb8a54a94ac515a2f>
+[pud-fbn]: <xml/p.u.d.%20Facebook%20Notes.shortcut>
+[pud-fbn-i]: <https://www.icloud.com/shortcuts/45242e4d25b34412a6a08df9f68e6d61>
+[pud-fbphs]: <xml/p.u.d.%20Facebook%20Photo-Set.shortcut>
+[pud-fbphs-i]: <https://www.icloud.com/shortcuts/e1a515497c9c4cf296be1082935bdbcd>
+[pud-fbph]: <xml/p.u.d.%20Facebook%20Photos.shortcut>
+[pud-fbph-i]: <https://www.icloud.com/shortcuts/4ebd7009083f4b86bd26b2bfe4cf237a>
+[pud-fbstory]: <xml/p.u.d.%20Facebook%20Story.shortcut>
+[pud-fbstory-i]: <https://www.icloud.com/shortcuts/61504e97accb43f9b2e3a71d8171f1a6>
+[pud-ptt18]: <xml/p.u.d%20PTT%20Ask%2018.shortcut>
+[pud-ptt18-i]: <https://www.icloud.com/shortcuts/8f1ca6f20392406181c7840a06badebf>
+[pud-pttf]: <xml/p.u.d%20PTT%20Friendly.shortcut>
+[pud-pttf-i]: <https://www.icloud.com/shortcuts/86fc68febd5b4921af09fde2d0218bc6>
+[pud-pttw]: <xml/p.u.d%20PTTWeb.shortcut>
+[pud-pttw-i]: <https://www.icloud.com/shortcuts/7df7f70f9f6e496b9862dc67fa2af434>
+[pud-moptt]: <xml/p.u.d%20MOPTT.shortcut>
+[pud-moptt-i]: <https://www.icloud.com/shortcuts/d57239723656431da2aef519af874b0f>
 [web]: <xml/Web%20Actions.shortcut>
 [web-i]: <https://www.icloud.com/shortcuts/cff2a6f1a9f14c4691ded49d418f5e17>
 [fwfu-htm]: <xml/f.w.%20f.u.%20Get%20HTML.shortcut>
