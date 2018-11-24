@@ -75,6 +75,7 @@ Each category has an entry shortcut to run from the share sheet.
 | [**f.i.m. Glue Screenshots**][fim-glue] | [Get][fim-glue-i] | - | Combine multiple screenshots from left to right | `image` | Indirect | NO | - |
 | [**f.i. Imgur**][fi-imgur] | [Get][fi-imgur-i] | - | Upload photo to imgur <br/><sup>(:warning: Need an one-time setup for Imgur in Shortcut app)</sup> | `image` | Indirect | NO | - |
 | [**f.i. Photo Map Thumbnail v2**][fi-imgmap] | [Get][fi-imgmap-i] | - | Add a coordinate map to a photo | `image` | Indirect | NO | [Reddit @atomicsiren][fi-imgmap-src] <br/><sup>(Modified to integrate into Image Actions)</sup> |
+| [**Quick Shot**][qshot] | [Get][qshot-i] | - | Take a quick photo with rear camera in the Shortcut app | - | YES | YES | - |
 
 <a href='#^act-ext'>^</a><a name='act-ext'>1</a> __Action Extension:__ Accepts files, URLs or other data from another app's share sheet. <br/>
 Indirect means a shortcut will be called by a category entry.<br/>
@@ -202,3 +203,5 @@ Support means a short will be called by Indirect shortcuts as a supportive tool.
 [fi-imgmap]: <xml/f.i.%20Photo%20Map%20Thumbnail%20v2.shortcut>
 [fi-imgmap-i]: <https://www.icloud.com/shortcuts/38e72001cb7142339ccb2e2a5d86640a>
 [fi-imgmap-src]: <https://reddit.com/r/shortcuts/comments/9qyh6y/add_thumbnail_map_to_photo/>
+[qshot]: <xml/Quick%20Shot.shortcut>
+[qshot-i]: <https://www.icloud.com/shortcuts/7dd5d24c96024b06bb8b200cae495470>
